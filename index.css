@@ -107,3 +107,32 @@
     color: red;
     font-size: 12px;
 }
+.card1{
+    width: 150px;
+    height: 100px;
+    background-color: #151ced;
+    padding: 0.5rem;
+    border-radius: 10px;
+    color: #fff;
+    cursor: pointer;
+    transition: 0.50s;
+}
+.card1 p a{
+    text-decoration: none;
+    color: #fff;
+}
+.card1:hover{
+background:linear-gradient(to right, rgb(0, 255, 255),rgb(255, 209, 209)) ;
+color: #151ced;
+transform: translate(0, -5px);
+transition: 0.50s;
+}
+.row1{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+.success{
+    color: green;
+}
